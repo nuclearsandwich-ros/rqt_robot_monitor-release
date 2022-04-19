@@ -1,0 +1,251 @@
+ros-humble-rqt-robot-monitor (1.0.5-2jammy) jammy; urgency=high
+
+  * Improve error and warning lists by only showing leaf-elements
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 16 Mar 2022 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (1.0.4-2jammy) jammy; urgency=high
+
+  * prevent freezing of gui if no aggregator is present, fixes #31 <https://github.com/ros-visualization/rqt_robot_monitor/issues/31>
+  * added alternative view of devices for treeview
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 07 Dec 2020 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (1.0.3-2jammy) jammy; urgency=high
+
+  * Fixed the functionality of the timeline_view
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 07 Sep 2020 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (1.0.2-2jammy) jammy; urgency=high
+
+  * fix for changed data type of diagnostic level (#26 <https://github.com/ros-visualization/rqt_robot_monitor/issues/26>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 10 Aug 2020 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (1.0.1-2jammy) jammy; urgency=high
+
+  * temporary remove the rqt_bag dependency and plugin (#22 <https://github.com/ros-visualization/rqt_robot_monitor/issues/22>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 11 Jun 2020 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (1.0.0-2jammy) jammy; urgency=high
+
+  * changed python(3)-rospkg dependency to python(3)-rospkg-modules
+  * merged changes for ROS 2
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 01 Jun 2020 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.10-2jammy) jammy; urgency=high
+
+  * updated package to format 3
+  * added mutex and checks to fix (#13 <https://github.com/ros-visualization/rqt_robot_monitor/issues/13>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 19 Apr 2020 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.9-2jammy) jammy; urgency=high
+
+  * refactored code and made signaling more efficient
+  * stale messages appear now in the error pane
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 24 Jul 2019 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.8-2jammy) jammy; urgency=high
+
+  * Fix apparent threading bug in timeline_view (#5 <https://github.com/ros-visualization/rqt_robot_monitor/pull/5>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 26 Sep 2017 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.7-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 26 Apr 2017 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.6-2jammy) jammy; urgency=high
+
+  * use Python 3 compatible syntax (#121 <https://github.com/ros-visualization/rqt_robot_plugins/pull/121>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 24 Jan 2017 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.5-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 02 Nov 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.4-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 19 Sep 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.3-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 16 May 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.2-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 29 Apr 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.1-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 28 Apr 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.5.0-2jammy) jammy; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#101 <https://github.com/ros-visualization/rqt_robot_plugins/pull/101>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 27 Apr 2016 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.4.3-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 08 Mar 2016 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.4.2-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 24 Jul 2015 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.4.1-2jammy) jammy; urgency=high
+
+  * fix installing missing bag_plugin xml (#288 <https://github.com/ros-visualization/rqt_common_plugins/issues/288>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 30 Apr 2015 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.4.0-2jammy) jammy; urgency=high
+
+  * rewrite rqt_robot_monitor (#3 <https://github.com/ros-visualization/rqt_robot_plugins/issues/3>, #9 <https://github.com/ros-visualization/rqt_robot_plugins/issues/9>, #32 <https://github.com/ros-visualization/rqt_robot_plugins/issues/32>, #33 <https://github.com/ros-visualization/rqt_robot_plugins/issues/33>, #71 <https://github.com/ros-visualization/rqt_robot_plugins/issues/71>)
+  * make diagnostics_agg a relative topic (#32 <https://github.com/ros-visualization/rqt_robot_plugins/issues/32>)
+  * add rqt_bag plugin
+  * update script to use full plugin name
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 05 Nov 2014 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.7-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 18 Aug 2014 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.6-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 11 Jul 2014 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.5-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Mon, 02 Jun 2014 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.4-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 07 May 2014 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.3-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 28 Jan 2014 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.2-2jammy) jammy; urgency=high
+
+  * add groups for rqt plugins (ros-visualization/rqt_common_plugins#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 08 Jan 2014 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.1-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 09 Oct 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.3.0-2jammy) jammy; urgency=high
+
+  * fix indication when not receiving deagnostic data (#35 <https://github.com/ros-visualization/rqt_robot_plugins/issues/35>)
+  * fix scrolling of inspection window on new data (#34 <https://github.com/ros-visualization/rqt_robot_plugins/issues/34>)
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Wed, 28 Aug 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.16-2jammy) jammy; urgency=high
+
+  * First public release into Hydro
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 09 Jul 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.15-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 25 Apr 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.14-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 12 Apr 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.13-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Tue, 09 Apr 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.12-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 07 Apr 2013 01:22:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.11-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 07 Apr 2013 01:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.10-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 04 Apr 2013 07:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.9-2jammy) jammy; urgency=high
+
+  * Fix
+    
+      * now run with pyside (it used to be not working with it w/o having been noticed).
+      * Call .ui file in .ui is now successfully working
+    
+  * Refactoring
+    
+      * Now TimelinePane uses .ui file
+    
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Thu, 07 Mar 2013 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.8-2jammy) jammy; urgency=high
+
+
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Fri, 11 Jan 2013 08:00:00 -0000
+
+ros-humble-rqt-robot-monitor (0.2.7-2jammy) jammy; urgency=high
+
+  * first public release into Groovy
+
+ -- Aaron Blasdel <ablasdel@gmail.com>  Sun, 23 Dec 2012 23:58:00 -0000
+
+

@@ -1,0 +1,13 @@
+Source: ros-humble-rqt-robot-monitor
+Section: misc
+Priority: optional
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-rosidl-default-generators, ros-humble-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://wiki.ros.org/rqt_robot_monitor
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-robot-monitor
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-rospkg-modules, ros-humble-diagnostic-msgs, ros-humble-python-qt-binding (>= 0.2.19), ros-humble-qt-gui, ros-humble-qt-gui-py-common, ros-humble-rclpy, ros-humble-rqt-gui, ros-humble-rqt-gui-py, ros-humble-rqt-py-common, ros-humble-ros-workspace
+Description: rqt_robot_monitor displays diagnostics_agg topics messages that are published by diagnostic_aggregator.
+ rqt_robot_monitor is a direct port to rqt of robot_monitor. All diagnostics are fall into one of three tree panes depending on the status of diagnostics (normal, warning, error/stale). Status are shown in trees to represent their hierarchy. Worse status dominates the higher level status. Ex. 'Computer' category has 3 sub devices. 2 are green but 1 is error. Then 'Computer' becomes error. You can look at the detail of each status by double-clicking the tree nodes. Currently re-usable API to other pkgs are not explicitly provided.
